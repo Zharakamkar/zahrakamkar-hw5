@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+
+img {
+    width: 225px;
+    height: 225px;
+}
+
+.item {
+    width: 225px;
+    height: 225px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.items {
+    position: absolute;
+    top: 0vh;
+    right: 0rem;
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    position: relative;
+    right: -54.3%;
+    top: -70%;
+}
+
+.row2 {
+    display: flex;
+    position: relative;
+    right: -39.7%;
+    top: -70%;
+}
+
+.row3 {
+    display: flex;
+    position: relative;
+    right: -25.1%;
+    top: -70%;
+}
+
+.row4 {
+    display: flex;
+    position: relative;
+    right: -10.5%;
+    top: -70%;
+}
+
+.row5 {
+    display: flex;
+
+    position: relative;
+    right: 4.1%;
+    top: -70%;
+}
+
+.row6 {
+    display: flex;
+    position: relative;
+    right: 4.1%;
+    top: -70%;
+}
+
+.row7 {
+    display: flex;
+    position: relative;
+    right: -10.5%;
+    top: -70%;
+}
+
+.row8 {
+    display: flex;
+    position: relative;
+    right: -21.8%;
+    top: -70%;
+}
+
+.yellow-box {
+    background-color: #e9b309;
+}
+
+.blue-box {
+    background-color: #3b82f6;
+}
+
+.pink-box {
+    background-color: #eb489b;
+}
+
+.green-box {
+    background-color: #23c55e;
+}
+
+.red-box {
+    background-color: #f04444;
+}
