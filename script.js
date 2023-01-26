@@ -1,17 +1,19 @@
-const massage = document.querySelector(".massage");
-function shownNotification(item) {
-    const styleTop = item.top;
-    const styleRight = item.right;
-    massage.style.top = `${styleTop}px`;
-    massage.style.right = `${styleRight}px`;
-    massage.innerHTML = item.html;
-    massage.classList.add = item.className;
-    console.log(massage.classList);
+"use strict";
+
+const users = [
+    { name: 'John', age: 30 },
+    { name: 'sharl', age: 20 },
+    { name: 'Tull', age: 23 },
+    { name: 'zahra', age: 18 },
+    // {
+    //     sortAge: function () {
+    //         return (this.sort((a, b) => a.age > b.age ? 1 : 0))
+    //     }
+    // }
+];
+
+const sortAge = () => {
+    return (users.sort((a, b) => a.age - b.age))
 }
 
-shownNotification({
-    top: +prompt("top"),
-    right: +prompt("right"),
-    html: prompt("write sth"),
-    className: prompt("Class"),
-});
+console.log(sortAge())
